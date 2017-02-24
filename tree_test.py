@@ -65,7 +65,47 @@ def main():
         buildTree(root,vals[i])
     #print iterFinder(root,4)
     print recursiveFinder(root,13)
+    print root.right.right.right.right.right.right.right
+
+if __name__ == '__main__':
+    main()
+"""#-------------------------------------------------------------------------------
+# Name:        module1
+# Purpose:
+#
+# Author:      sbhar
+#
+# Created:     24/01/2017
+# Copyright:   (c) sbhar 2017
+# Licence:     <your licence>
+#-------------------------------------------------------------------------------
+
+class Node:
+    def __init__(self,val):
+        self.val=val
+        self.next=None
+
+def main():
+    tail=None
+    head=None
+    for i in range(0,5):
+        if tail!=None:
+            tail.next=Node(i)
+            tail=tail.next
+        else:
+            head=Node(i)
+            tail=head
+    current=head
+    #print current.val
+    while(current!=None):
+        if current.val==2.5:
+            print "1"
+            break
+        current=current.next
+
+
 
 
 if __name__ == '__main__':
     main()
+"""
