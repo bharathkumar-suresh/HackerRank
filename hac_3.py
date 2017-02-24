@@ -2,7 +2,7 @@ import sys
 n,q = raw_input().strip().split(' ')
 n,q = [int(n),int(q)]
 pattern=['Y','X','Y','X','X','Y','Y']
-
+#check
 def rotateBy90(H):
     newH=[]
     for i in range(0,n):
