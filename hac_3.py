@@ -1,4 +1,4 @@
-import sy
+import sys
 n,q = raw_input().strip().split(' ')
 n,q = [int(n),int(q)]
 pattern=['Y','X','Y','X','X','Y','Y']
