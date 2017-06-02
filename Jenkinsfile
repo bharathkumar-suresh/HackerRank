@@ -8,7 +8,7 @@ pipeline
             steps
             {
                 echo 'BUilding'
-                sh 'python hac_3.py'
+                sh 'python helloWorldJenkins.py'
             }
         }
         stage('Test')
