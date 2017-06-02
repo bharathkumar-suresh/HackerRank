@@ -8,7 +8,7 @@ pipeline
             steps
             {
                 echo 'BUilding'
-                sh 'echo|pwd'
+                sh 'python hac_3.py'
             }
         }
         stage('Test')
