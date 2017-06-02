@@ -7,7 +7,7 @@ pipeline
         {
             steps
             {
-                echo 'BUilding'
+                echo 'Building'
                 sh 'python helloWorldJenkins.py'
             }
         }
