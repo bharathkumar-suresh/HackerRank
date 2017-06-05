@@ -1,6 +1,6 @@
 pipeline
 {
-    agent {docker 'dockercontainer1'}
+    agent {docker 'docker_slave'}
     stages
     {
         stage('Build')
