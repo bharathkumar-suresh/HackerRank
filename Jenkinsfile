@@ -1,6 +1,6 @@
 pipeline
 {
-    agent {docker 'dockercontainer1'}
+    agent {docker 'bharaths30/dockercontainer1'}
     stages
     {
         stage('Build')
